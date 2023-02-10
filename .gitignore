@@ -239,4 +239,6 @@ MAKE0[0-9][0-9][0-9].@@@
 *.manifest
 doc-nits
 
-!build
+build/*
+!build/win64
+!build/scripts
