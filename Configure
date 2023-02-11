@@ -972,8 +972,8 @@ while (@argvcopy)
                 if (/^--prefix=(.*)$/)
                         {
                         $config{prefix}=$1;
-                        die "Directory given with --prefix MUST be absolute\n"
-                                unless file_name_is_absolute($config{prefix});
+                        #die "Directory given with --prefix MUST be absolute\n"
+                        #        unless file_name_is_absolute($config{prefix});
                         }
                 elsif (/^--api=(.*)$/)
                         {
