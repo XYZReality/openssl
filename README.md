@@ -120,8 +120,8 @@ in the [migration_guide(7ossl)] manual page.
 
 XYZ Reality Build and Install
 =============================
-The pre-built binaries for both Linux x64 and Windows x64 are already added to the XYZ's fork inside the **build** folder, so normally 
-you won't need to build them on your own. But in any case if you desire to do so, please just install all necessary
+The pre-built binaries for both Linux x64 and Windows x64 are already added to the XYZ's fork and can be found inside the 
+**build** folder, so normally you won't need to build them yourself. But in you desire to do so, please just install all necessary
 prerequisite (mentioned in the the previous section) and then:
 
 **Windows**
