@@ -124,16 +124,16 @@ The pre-built binaries for both Linux x64 and Windows x64 are already added to t
 you won't need to build them on your own. But in any case if you desire to do so, please just install all necessary
 prerequisite (mentioned in the the previous section) and then:
 
-Windows
--------
+*Windows:*
+<br>
 Run this command in the developer command line console:
-    build_win64.bat
+```build_win64.bat```
 	
 
-Linux
------
+*Linux:*
+<br>
 Run this command in terminal:
-    ./build_linux64.sh
+```./build_linux64.sh```
 	
 After building is done, binaries will be placed in the *build* folder.
 
