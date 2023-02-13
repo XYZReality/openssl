@@ -133,7 +133,7 @@ Run this command in the developer command line console:<br>
 **Linux**
 <br>
 Run this command in terminal:<br>
-```./build_linux64.sh```
+```./build_linux.sh```
 	
 After building is done, binaries will be placed in the **build** folder.
 
