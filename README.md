@@ -4,6 +4,7 @@ Welcome to the OpenSSL Project
 [![openssl logo]][www.openssl.org]
 
 [![github actions ci badge]][github actions ci]
+XYZ Reality's Customized Fork
 [![appveyor badge]][appveyor jobs]
 
 OpenSSL is a robust, commercial-grade, full-featured Open Source Toolkit
@@ -23,6 +24,7 @@ Table of Contents
  - [Overview](#overview)
  - [Download](#download)
  - [Build and Install](#build-and-install)
+ - [XYZ Reality Build and Install](#build-and-install-xyz-reality)
  - [Documentation](#documentation)
  - [License](#license)
  - [Support](#support)
@@ -115,6 +117,25 @@ document.
 
 Specific notes on upgrading to OpenSSL 3.0 from previous versions can be found
 in the [migration_guide(7ossl)] manual page.
+
+XYZ Reality Build and Install
+=============================
+The pre-built binaries for both Linux x64 and Windows x64 are already added to the XYZ's fork inside the *build* folder, so normally 
+you won't need to build them on your own. But in any case if you desire to do so, please just install all necessary
+prerequisite (mentioned in the the previous section) and then:
+
+Windows
+-------
+Run this command in the developer command line console:
+    build_win64.bat
+	
+
+Linux
+-----
+Run this command in terminal:
+    ./build_linux64.sh
+	
+After building is done, binaries will be placed in the *build* folder.
 
 Documentation
 =============
